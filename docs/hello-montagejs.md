@@ -156,7 +156,7 @@ First, update the markup of the HTML elements you want to control with a `data-m
 1. In ui/converter.reel/converter.html, within the `<body>` tags, replace the existing markup with the following update:
 
     ```html
-    <div data-montage-id="owner" class="Converter">
+    <div data-montage-id="converter" class="Converter">
         <div>
             <fieldset>
                 <div>&deg;C
@@ -291,7 +291,7 @@ First, you need to specify CSS class names in the markup of your component.
 1. In ui/converter.reel/converter.html, replace the content within the `<body>` tags with the following updated markup:
 
     ```html
-    <div data-montage-id="owner" class="Converter">
+    <div data-montage-id="converter" class="Converter">
         <fieldset class="Numbers">
             <div class="Label">&deg;C
                <input data-montage-id="celsius">
